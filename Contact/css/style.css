@@ -1,0 +1,705 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+
+
+body {
+    overflow-x: hidden;
+    
+}
+
+/* start upper */
+.upper{
+    background-color: rgb(8, 31, 62);
+    overflow: hidden;
+    padding: 13px;
+
+}
+
+.upper p{
+    color: rgb(181, 181, 181);
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    
+}
+.upper .upper-mark{
+    color: rgb(0, 108, 255);
+}
+.upper .col-md-8{
+    text-align: right
+}
+/* media of upper */
+@media (max-width:992px){
+    .upper p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:769px){
+    .upper .col-md-8{
+        text-align: left
+    }
+
+}
+
+/* start Navbar */
+/* start navbar*/
+/* navbar */
+ #navbar .navbar-expand-lg {
+     margin-top: 49px;
+    height: 95px;
+    background-color: rgba(0, 108, 255, 0.5);
+    transition:all 0.6s;
+} 
+
+/*logo*/
+#navbar .navbar-brand .logo{
+    
+    margin-left: 90px;  
+}
+
+
+/* button toggle */
+
+.navbar-toggler{
+    border: none;
+    background-color: transparent;
+    z-index: 5;
+}
+.navbar-toggler span{
+    color: #fff;
+    background-color: transparent
+}
+/* nav links */
+
+    
+
+
+#navbar .navbar-nav {
+    margin-right: 50px;
+}
+#navbar .nav-item {
+    margin-right: 5px;
+    padding: 5px 13px;
+    transition: all 0.5s;
+}
+#navbar .nav-btn{
+    background-color: #f00;
+    margin-right: 5px;
+    padding: 8px 15px;
+    transition: all 0.5s;
+    
+}
+
+#navbar .nav-btn span{
+    font-weight: bold;
+}
+
+
+
+
+#navbar .nav-link {
+    color: #fff;
+    font-size:14px;
+    font-weight:500;
+
+    
+}
+#navbar .nav-item:hover{
+     background-color: rgb(0, 108, 255);
+     
+     
+
+}    
+#navbar .active{
+    background-color:rgb(0, 108, 255);
+    
+}
+
+#navbar .nav-btn:hover{
+    background-color: #fff;
+    
+}
+
+#navbar .nav-btn:hover .link{
+    color:rgb(0, 123, 255); ;
+}
+
+@media (max-width:1150px){
+    #navbar .navbar-brand .logo{
+        margin-left: 40px;  
+    }
+    #navbar .navbar-nav {
+        margin-right: 20px;
+    }
+    #navbar .nav-item {
+        margin-right: 5px;
+        padding: 5px 7px;
+        transition: all 0.5s;
+    }
+}
+
+@media (max-width:992px){
+    #navbar .navbar-expand-lg{
+        margin-top: 45px;
+    }
+    #navbar .navbar-brand .logo{
+        margin-left: 70px;  
+    }
+    #navbar .navbar-toggler{
+        margin-right: 80px;
+    }
+
+    #navbar .navbar-collapse{
+        
+    background-color: rgb(8, 31, 62);
+    padding: 15px 15px;
+    position: absolute;
+    top: 95;
+    left: 0;
+    width: 100%;
+    
+    
+    
+    }
+
+    #navbar .nav-item{
+        margin-bottom: 7px;
+    }
+
+    #navbar .nav-btn{
+        width: 250px;
+        text-align: center;
+    }
+}
+@media (max-width:772px){
+    #navbar .navbar-expand-lg{
+        margin-top: 64px;
+    }
+
+    #navbar .navbar-toggler{
+        margin-right: 20px;
+    }
+
+    #navbar .navbar-brand .logo{
+        margin-left: 20px;  
+    }
+    
+}
+
+
+/* start slider */
+
+ #slider{
+position: relative;
+overflow: hidden;
+background-image: url('../img/bg-img/breadcumb3.jpg');
+background-size: cover;
+background-attachment: fixed;
+height: 450px; 
+}
+
+#slider .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 1;
+}
+
+
+
+
+#slider .slider-text{
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 20;
+
+}
+
+#slider .slider-text h3{
+    color: rgb(8, 31, 62); 
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+#slider .slider-text p{
+    color: rgb(8, 31, 62); 
+    font-weight: 400;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+
+#slider .slider-text .btn{
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 30px;
+}
+#slider .slider-text .btn button{
+    background-color: rgb(0, 108, 255);
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    font-weight: 500;
+    margin-right: -2;
+}
+#slider .slider-text .btn span{
+    background-color: rgb(8, 31, 62);
+    color: #fff;
+    padding: 6px 12px 9px;
+    transition: all 0.5s;
+    margin-left: -2;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#slider .slider-text .btn:hover button{
+    background-color: rgb(8, 31, 62);
+}
+
+#slider .slider-text .btn:hover span{
+    background-color: rgb(0, 108, 255);
+}
+
+/* start contact */
+
+#contact{
+    padding: 80px 0
+}
+
+#contact .head{
+    font-size: 20px;
+    color: #081f3e;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#contact input {
+    width: 100%;
+    outline: none;
+    padding: 10px 0 10px 15px;
+    background-color: #f5f7f9;
+    border: none;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #666;
+
+}
+
+#contact  textarea{
+    font-style: italic;
+    width: 100%;
+    color: #666;
+    outline: none;
+    padding: 10px 0 10px 15px;
+    background-color: #f5f7f9;
+    border: none;
+    margin-bottom: 10px;
+    height: 120px;
+
+}
+
+#contact .btn{
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 30px;
+}
+#contact .btn button{
+    background-color: rgb(0, 108, 255);
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    font-weight: 500;
+    margin-right: -2;
+}
+#contact .btn span{
+    background-color: rgb(8, 31, 62);
+    color: #fff;
+    padding: 6px 12px 9px;
+    transition: all 0.5s;
+    margin-left: -2;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#contact .btn:hover button{
+    background-color: rgb(8, 31, 62);
+}
+
+#contact .btn:hover span{
+    background-color: rgb(0, 108, 255);
+}
+
+
+
+#contact .contact-parent{
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+#contact .contact-i{
+    width: 10%;
+    color: #006cff;
+    font-size: 20px;
+}
+
+#contact .contact-info{
+    width: 90%;
+    padding-left: 25px;
+}
+
+#contact .contact-info p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:600;
+}
+
+#contact .contact-info p span{
+    font-size: 13px;
+}
+
+
+#contact  .social i {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 36px;
+    color: #666;
+    transition: all 0.5s;
+    margin: 2px 9px 10px ;
+    cursor: pointer;
+}
+
+#contact .social i:hover {
+
+    color:  #006cff;
+    cursor: pointer;
+}
+
+#contact .shadow{
+    overflow: hidden;
+    position: relative;
+    margin: 65px 0;
+    padding: 30px 0 40px;
+
+}
+#contact .shadow .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #006cff;
+    opacity: 0.9;
+}
+
+#contact .shadow .info{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    z-index: 10;
+}
+#contact .shadow .info i{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#contact .shadow .info h4{
+    color: #081f3e;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+#contact .shadow .info h2{
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+/* start footer */
+#footer{
+    overflow: hidden;
+    background-color: rgb(5, 15, 29);
+    padding: 80px 20px;
+    color: #fff;
+}
+
+
+
+#footer .lg img{
+    margin-bottom: 40px;
+}
+#footer .lg p
+{
+    font-weight: 500;
+    line-height: 1.6;
+    color: #dccccc;
+    font-size: 15px;
+    margin-bottom: 35px;
+
+}
+
+#footer  .lg .social i {
+    display: inline-block;
+    font-size: 16px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    border: 1px solid #888;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50;
+    transition: all 0.5s;
+    margin: 2px 3px;
+}
+
+#footer .lg .social i:hover {
+    background-color: #fff;
+    color: rgb(5, 15, 29);
+    cursor: pointer;
+}
+
+#footer h4
+{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 22;
+    color: rgb(0, 108, 255);
+}
+
+#footer .footer-parent{
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+#footer .footer-img{
+    width: 20%;
+}
+#footer .footer-img img{
+    width: 100%;
+}
+#footer .footer-info{
+    width: 80%;
+    padding-left: 25px;
+}
+
+#footer .footer-info p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:600;
+}
+
+#footer .footer-info p span{
+    font-size: 13px;
+}
+
+
+#footer .form{
+    background-color: #2f3c48;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+
+#footer input , textarea{
+    background-color: transparent;
+    border-bottom: 2px solid rgb(83, 97, 116);
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: all 0.4s;
+    margin: 10px 0;
+    color: #fff;
+}
+#footer input:focus{
+   border-bottom:  2px solid rgb(0, 108, 255);
+}
+
+#footer .btn{
+    cursor: pointer;
+    overflow: hidden;
+}
+#footer .btn button{
+    background-color: rgb(0, 108, 255);
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    font-weight: 500;
+    margin-right: -2;
+    margin-left: -15px;
+
+}
+#footer .btn span{
+    background-color: rgb(8, 31, 62);
+    color: #fff;
+    padding: 6px 12px 9px;
+    transition: all 0.5s;
+    margin-left: -2;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#footer  .btn:hover button{
+    background-color: rgb(8, 31, 62);
+}
+
+#footer  .btn:hover span{
+    background-color: rgb(0, 108, 255);
+} 
+
+#footer .sear
+{
+    overflow: hidden;
+}
+
+#footer .sear input{
+    width: 50%;
+    background-color: #2f3c48;
+    font-size: 14px;
+    padding: 8px 0 8px 12px;
+
+}
+
+#footer .sear button{
+    width: 45%;
+    background-color: rgb(0, 108, 255);
+    border: none;
+    cursor: pointer;
+    padding: 9px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.5s
+    
+}
+#footer .sear button:hover{
+    background-color: rgb(32, 66, 113)
+    
+    
+}
+#footer .pa
+{
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 34px;
+    color: #c3c3c3;
+    font-style: italic;
+}
+
+@media (max-width:1160px){
+
+    #footer .form{
+        padding: 15px 10px;
+    }
+
+}
+
+@media (max-width:1100px){
+
+
+    #footer .btn button{
+        font-size: 13px;
+    }
+    #footer .btn span{
+        font-size: 13px;
+        padding-top: 9px
+    }
+
+    #footer .sear input{
+        
+        font-size: 12px;
+        padding: 10px 0 8px 13px;
+    
+    }
+}
+
+@media (max-width:992px){
+
+
+    #footer .btn button{
+        font-size: 16px;
+    }
+    #footer .btn span{
+        font-size: 18px;
+        padding-top: 6px
+    }
+
+    #footer .sear input{
+        font-size: 14px;
+        padding: 8px 0 8px 12px;
+    
+    }
+}
+
+
+
+/* start copyRight */
+
+#right{
+    background-color: rgb(8, 31, 62);
+    color: #fff;
+
+}
+
+#right p{
+    margin: 8px 0;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#right i{
+    margin: 0 5px;
+}
+#right span{
+    font-weight: 500;
+    font-size: 17;
+    padding: 0px 5px;
+}
+
+
+/* button to top */
+#button-top{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    position: fixed;
+}
+
+#button-top .btn{
+    border-radius: 50%;
+    background-color: rgb(0, 108, 255);
+    width: 60px;
+    height: 60px;
+}
+
